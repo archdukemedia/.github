@@ -1,13 +1,13 @@
-<p align="center"><img src="banner.png" alt="Volpes-Media: a family of fox-marked media apps for the Linux desktop"></p>
+<p align="center"><img src="banner.png" alt="Arch-Duke Media: a family of fox-marked media apps for the Linux desktop"></p>
 
 <p align="center"><b>Media apps for the Linux desktop, made to work together.</b><br>
 Watch on your computer, send it to your TV, and download what you want to watch.</p>
 
 ---
 
-## What Volpes-Media makes
+## What Arch-Duke Media makes
 
-Volpes-Media is a small family of apps for Linux, built with GTK 4 and libadwaita so they look at home on GNOME, Zorin OS and Ubuntu. Each app does one job well, and they work together: a film you start in one carries on in another at the same second, with the same subtitles and the rest of the playlist.
+Arch-Duke Media is a small family of apps for Linux, built with GTK 4 and libadwaita so they look at home on GNOME, Zorin OS and Ubuntu. Each app does one job well, and they work together: a film you start in one carries on in another at the same second, with the same subtitles and the rest of the playlist.
 
 <table>
 <tr>
@@ -61,7 +61,7 @@ Download and seed torrents, and keep seeding from the top bar.
 
 ## Install
 
-All three apps come from the Volpes-Media apt repository, so new versions arrive with your normal updates (`sudo apt upgrade` or the Software Updater), a few minutes after each release.
+All three apps come from the Arch-Duke Media apt repository, so new versions arrive with your normal updates (`sudo apt upgrade` or the Software Updater), a few minutes after each release.
 
 **Works on:** Zorin OS 18, Ubuntu 24.04 or newer, Linux Mint 22 or newer, and Debian 13 or newer, on 64-bit PCs (amd64).
 
@@ -69,8 +69,8 @@ All three apps come from the Volpes-Media apt repository, so new versions arrive
 
 ```bash
 sudo install -d -m 0755 /etc/apt/keyrings
-sudo wget -qO /etc/apt/keyrings/volpesmedia.gpg https://volpesmedia.github.io/apt/volpesmedia.gpg
-sudo wget -qO /etc/apt/sources.list.d/volpesmedia.sources https://volpesmedia.github.io/apt/volpesmedia.sources
+sudo wget -qO /etc/apt/keyrings/archdukemedia.gpg https://archdukemedia.github.io/apt/archdukemedia.gpg
+sudo wget -qO /etc/apt/sources.list.d/archdukemedia.sources https://archdukemedia.github.io/apt/archdukemedia.sources
 sudo apt update
 ```
 
@@ -99,19 +99,19 @@ Every update is signed. The key's fingerprint is:
 AB9E FDAD BAD8 571D FC20  DC82 457D E12A 62F3 AD84
 ```
 
-Your system trusts this key only for the Volpes-Media repository (`Signed-By` in the `.sources` file), never for anything else.
+Your system trusts this key only for the Arch-Duke Media repository (`Signed-By` in the `.sources` file), never for anything else.
 
 To go back an app to an earlier version: `sudo apt install theatre=<version>` (the last three versions of each app are kept).
 
 To remove the repository:
 
 ```bash
-sudo rm /etc/apt/sources.list.d/volpesmedia.sources /etc/apt/keyrings/volpesmedia.gpg && sudo apt update
+sudo rm /etc/apt/sources.list.d/archdukemedia.sources /etc/apt/keyrings/archdukemedia.gpg && sudo apt update
 ```
 
 </details>
 
-More at **[volpesmedia.github.io/apt](https://volpesmedia.github.io/apt/)** and in the **[apt](https://github.com/volpesmedia/apt)** repository.
+More at **[archdukemedia.github.io/apt](https://archdukemedia.github.io/apt/)** and in the **[apt](https://github.com/archdukemedia/apt)** repository.
 
 ## What's in this organisation
 
@@ -120,8 +120,8 @@ More at **[volpesmedia.github.io/apt](https://volpesmedia.github.io/apt/)** and 
 | **theatre** | The Theatre video player |
 | **tvcast** | TvCast, casting and screen mirroring |
 | **trader-bittorrent-client** | BitTrader, the torrent app |
-| **[apt](https://github.com/volpesmedia/apt)** | The apt repository that delivers all three apps |
-| **api** | The D-Bus API (`io.github.volpesmedia.Api1`) the apps use to hand a video to each other |
-| **volpes-design-system** | Colours, type, icons and GTK styles shared by every app |
+| **[apt](https://github.com/archdukemedia/apt)** | The apt repository that delivers all three apps |
+| **api** | The D-Bus API (`io.github.archdukemedia.Api1`) the apps use to hand a video to each other |
+| **archduke-design-system** | Colours, type, icons and GTK styles shared by every app |
 
-<p align="center"><sub>Volpes-Media · Theatre · TvCast · BitTrader</sub></p>
+<p align="center"><sub>Arch-Duke Media · Theatre · TvCast · BitTrader</sub></p>
