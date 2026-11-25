@@ -39,9 +39,9 @@ Cast videos with subtitles, or mirror your screen, from Linux to your TV.
 </td>
 </tr>
 <tr>
-<td width="96" align="center"><img src="icons/bittrader.png" width="80" alt="BitTrader icon"></td>
+<td width="96" align="center"><img src="icons/merchant.png" width="80" alt="Merchant icon"></td>
 <td>
-<h3>BitTrader</h3>
+<h3>Merchant</h3>
 Download and seed torrents, and keep seeding from the top bar.
 <ul>
 <li>Torrent files and magnet links, from the window, your browser or Files</li>
@@ -80,10 +80,10 @@ sudo apt update
 sudo apt install theatre
 ```
 
-Want to watch on your TV as well? Add TvCast, and BitTrader if you like:
+Want to watch on your TV as well? Add TvCast, and Merchant if you like:
 
 ```bash
-sudo apt install theatre tvcast bittrader
+sudo apt install theatre tvcast merchant
 ```
 
 Then open them from your app grid.
@@ -119,9 +119,9 @@ More at **[archdukemedia.github.io/apt](https://archdukemedia.github.io/apt/)** 
 |---|---|
 | **theatre** | The Theatre video player |
 | **tvcast** | TvCast, casting and screen mirroring |
-| **trader-bittorrent-client** | BitTrader, the torrent app |
+| **merchant** | Merchant, the torrent app |
 | **[apt](https://github.com/archdukemedia/apt)** | The apt repository that delivers all three apps |
 | **api** | The D-Bus API (`io.github.archdukemedia.Api1`) the apps use to hand a video to each other |
 | **archduke-design-system** | Colours, type, icons and GTK styles shared by every app |
 
-<p align="center"><sub>Arch-Duke Media · Theatre · TvCast · BitTrader</sub></p>
+<p align="center"><sub>Arch-Duke Media · Theatre · TvCast · Merchant</sub></p>
