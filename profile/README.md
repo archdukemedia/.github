@@ -25,9 +25,9 @@ A video player for people who love films more than settings. Open a film or a wh
 </td>
 </tr>
 <tr>
-<td width="96" align="center"><img src="icons/tvcast.png" width="80" alt="TvCast icon"></td>
+<td width="96" align="center"><img src="icons/herald.png" width="80" alt="Herald icon"></td>
 <td>
-<h3>TvCast</h3>
+<h3>Herald</h3>
 Cast videos with subtitles, or mirror your screen, from Linux to your TV.
 <ul>
 <li>Chromecasts and DLNA smart TVs (Samsung, LG, Sony, Philips…)</li>
@@ -55,8 +55,8 @@ Download and seed torrents, and keep seeding from the top bar.
 
 ### How they fit together
 
-- **Theatre → TV:** press **Cast** in Theatre and TvCast plays the film on your TV from the same moment. Theatre turns into a remote control with a picture of what's on the TV.
-- **TV → Theatre:** **Watch Here** in Theatre, or **Watch in Theatre** in TvCast's top-bar menu, and it comes back to your computer.
+- **Theatre → TV:** press **Cast** in Theatre and Herald plays the film on your TV from the same moment. Theatre turns into a remote control with a picture of what's on the TV.
+- **TV → Theatre:** **Watch Here** in Theatre, or **Watch in Theatre** in Herald's top-bar menu, and it comes back to your computer.
 - **One shared place per video:** stop on the TV, carry on in Theatre, or the other way round.
 
 ## Install
@@ -80,10 +80,10 @@ sudo apt update
 sudo apt install theatre
 ```
 
-Want to watch on your TV as well? Add TvCast, and Merchant if you like:
+Want to watch on your TV as well? Add Herald, and Merchant if you like:
 
 ```bash
-sudo apt install theatre tvcast merchant
+sudo apt install theatre herald merchant
 ```
 
 Then open them from your app grid.
@@ -118,10 +118,10 @@ More at **[archdukemedia.github.io/apt](https://archdukemedia.github.io/apt/)** 
 | Repository | What it is |
 |---|---|
 | **theatre** | The Theatre video player |
-| **tvcast** | TvCast, casting and screen mirroring |
+| **herald** | Herald, casting and screen mirroring (was TvCast) |
 | **merchant** | Merchant, the torrent app |
 | **[apt](https://github.com/archdukemedia/apt)** | The apt repository that delivers all three apps |
 | **api** | The D-Bus API (`io.github.archdukemedia.Api1`) the apps use to hand a video to each other |
 | **archduke-design-system** | Colours, type, icons and GTK styles shared by every app |
 
-<p align="center"><sub>Arch-Duke Media · Theatre · TvCast · Merchant</sub></p>
+<p align="center"><sub>Arch-Duke Media · Theatre · Herald · Merchant</sub></p>
